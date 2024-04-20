@@ -6,7 +6,6 @@ const modal = document.getElementById("modal")
 const winner = document.querySelector(".winner")
 const scores = [...document.querySelectorAll(".score-board span")]
 
-
 let player = 0
 let cpu = 0
 
