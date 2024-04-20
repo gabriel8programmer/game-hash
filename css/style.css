@@ -14,14 +14,21 @@ button {
 }
 
 .game {
-    width: 100%;
+    width: 95%;
     max-width: 400px;
     height: 350px;
-    margin: 20px auto;
-    border: 1px solid #fff;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+.game > h4 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
 }
 
 #modal {
